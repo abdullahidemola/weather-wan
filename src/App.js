@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Data from "./components/data";
 import { CloudRain, Sun, Snowflake } from "phosphor-react";
+import LineChart from "./components/lineChart";
 const App = () => {
   const [valid, setValid] = useState(true);
 
@@ -36,6 +37,7 @@ const App = () => {
               Click here to show data
             </button>
             {valid && <Data />}
+            <LineChart />
           </div>
         </div>
       </div>
