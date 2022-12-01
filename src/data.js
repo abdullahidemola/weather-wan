@@ -157,7 +157,7 @@ const data = {
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 5),
     },
     {
-      value: 94.96001,
+      value: 90.96001,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 4),
     },
     {
