@@ -1,6 +1,6 @@
 const dateval = new Date();
 
-const backDate = 40 * 0.1;
+const backDate = 50 * 0.1;
 
 const backDate2 = new Date().setMinutes(new Date().getDate() - backDate);
 
@@ -45,10 +45,6 @@ const data = {
     {
       value: 2.667,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 1),
-    },
-    {
-      value: 2.66,
-      date: new Date().setMinutes(new Date().getMinutes() - backDate * 0),
     },
   ],
   temperature: [
@@ -141,19 +137,19 @@ const data = {
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 10),
     },
     {
-      value: 97.96001,
+      value: 98.96001,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 9),
     },
     {
-      value: 97.96001,
+      value: 96.96001,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 8),
     },
     {
-      value: 97.96001,
+      value: 96.96001,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 7),
     },
     {
-      value: 97.96001,
+      value: 95.96001,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 6),
     },
     {
@@ -161,15 +157,15 @@ const data = {
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 5),
     },
     {
-      value: 97.96001,
+      value: 94.96001,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 4),
     },
     {
-      value: 97.96001,
+      value: 94.96001,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 3),
     },
     {
-      value: 97.96001,
+      value: 98.96001,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 2),
     },
     {
