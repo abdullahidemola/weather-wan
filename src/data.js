@@ -57,7 +57,7 @@ const data = {
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 9),
     },
     {
-      value: 30.8,
+      value: 32.8,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 8),
     },
     {
@@ -81,7 +81,7 @@ const data = {
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 3),
     },
     {
-      value: 30.7,
+      value: 31.7,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 2),
     },
     {
@@ -107,7 +107,7 @@ const data = {
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 7),
     },
     {
-      value: 0.595,
+      value: 0.565,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 6),
     },
     {
@@ -157,7 +157,7 @@ const data = {
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 5),
     },
     {
-      value: 90.96001,
+      value: 96.96001,
       date: new Date().setMinutes(new Date().getMinutes() - backDate * 4),
     },
     {
