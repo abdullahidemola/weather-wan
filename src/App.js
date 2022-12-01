@@ -7,7 +7,7 @@ import data from "./data";
 const App = () => {
   const fecthDataHandler = () => {
     fetch("https://b77b-154-68-225-162.eu.ngrok.io/api/nodes/?name=Node1").then(
-      response => console.log(response)
+      (response) => console.log(response)
     );
   };
 
@@ -28,6 +28,7 @@ const App = () => {
             </span>
             Weather WAN
           </div>
+          <p className="lora">A lora based weather station</p>
 
           <div className="charts-container">
             <AppChart data={data?.pressure} chartType={"Pressure"} />
